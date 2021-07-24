@@ -1,0 +1,55 @@
+﻿/* Useful info:
+
+Logo Purple: rgb(92, 17, 136)
+
+*/
+
+body, html {
+  height: 100%;
+
+  /* The image used */
+  background-image: url("assets/img/bg.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nav-item{
+	font-size: 1.25em;
+	padding: 0em 1em;
+}
+
+.navbar-brand{
+	font-size: 1.5em;
+	padding-left: 1em;
+}
+
+.badge.rounded-pill.bg-secondary{
+	padding: 1em 1.5em;
+	background-color: rgb(92, 17, 136) !important; /*"!important" makes it work... for some reason...*/
+}
+
+.badge.rounded-pill.bg-secondary:hover{
+	background-color: rgba(255,255,255,0.5) !important; /*"!important" makes it work... for some reason... */
+}
+
+.bi-youtube{
+	color: red;
+	font-size: 2em;
+}
+
+.bi-twitter{
+	color: rgb(29,161,242);
+	font-size: 2em;
+}
+
+.bi-twitch{
+	color: rgb(100,65,165);
+	font-size: 2em;
+}
