@@ -18,6 +18,8 @@ body, html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+
+	padding-top: 5em;
 }
 
 .nav-item{
@@ -60,8 +62,8 @@ body, html {
 	color: rgba(255, 255, 255, 0.6);
 }
 
-.padding-break{
-	padding-top: 10em;
+.border-primary{
+	color: red;
 }
 
 /******************************************************************/
