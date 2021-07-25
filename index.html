@@ -43,16 +43,24 @@
                         <a class="nav-link badge rounded-pill bg-secondary" href="#">Link</a>
                     </li>
                 </ul>
+                    <!-- Social Links -->
                     <form class="d-flex">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-twitch align-middle"></i> Twitch</a>
+                                <!--
+                                target="_blank" : Open link in new tab.
+                                rel="noopener noreferrer" : Prevent possible malicious attacks from link.
+                                -->
+                                <!-- Twitch Link -->
+                                <a class="nav-link active" aria-current="page" href="https://www.twitch.tv/donnydarko00" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitch align-middle"></i> Twitch</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-youtube align-middle"></i> YouTube</a>
+                                <!-- YouTube Link -->
+                                <a class="nav-link active" aria-current="page" href="https://www.youtube.com/channel/UCM9zW0ysslbb_zozhT1JPUg/featured" target="_blank" rel="noopener noreferrer"><i class="bi bi-youtube align-middle"></i> YouTube</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-twitter align-middle"></i> Twitter</a>
+                                <!-- Twitter Link -->
+                                <a class="nav-link active" aria-current="page" href="https://twitter.com/DonnyDarko00" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter align-middle"></i> Twitter</a>
                             </li>
                         </ul>
                     </ul>
@@ -61,9 +69,9 @@
         </div>
     </nav>
 
-<section id="twitch_embed">
+<section>
     <!-- Add a placeholder for the Twitch embed -->
-    <div id="twitch-embed"></div>
+    <div id="twitch-embed" class="twitch-embed"></div>
 
     <!-- Load the Twitch embed JavaScript file -->
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
