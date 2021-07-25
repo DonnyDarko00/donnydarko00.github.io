@@ -61,10 +61,7 @@ body, html {
 	font-size: 1.25em;
 	font-weight:bold;
 	color: rgba(255, 255, 255, 0.7);
-}
-
-.container-fluid{
-	width: 75%
+	padding: 1em 10em;
 }
 
 /******************************************************************/
