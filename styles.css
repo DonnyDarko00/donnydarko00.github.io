@@ -18,9 +18,6 @@ body, html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-
-	padding-top: 5em;
-	padding-bottom: 50em;
 }
 
 .nav-item{
@@ -58,15 +55,14 @@ body, html {
 	font-size: 2em;
 }
 
-.container-fluid{
-	width: 90%;
-}
-
 .body-text{
 	font-weight:bold;
 	color: rgba(255, 255, 255, 0.6);
 }
 
+.padding-break{
+	padding-top: 10em;
+}
 
 /******************************************************************/
 
