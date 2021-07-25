@@ -32,11 +32,16 @@ body, html {
 
 .badge.rounded-pill.bg-secondary{
 	padding: 1em 1.5em;
+	margin-top: 1em;
 	background-color: rgb(92, 17, 136) !important; /*"!important" makes it work... for some reason...*/
 }
 
 .badge.rounded-pill.bg-secondary:hover{
 	background-color: rgba(255,255,255,0.5) !important; /*"!important" makes it work... for some reason... */
+}
+
+.embed{
+	padding: 10em 5em;
 }
 
 .bi-youtube{
